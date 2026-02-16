@@ -134,9 +134,9 @@ Module.register('MMM-Calendar-Countdown', {
       const eventDayOfYear = eventEndDateMoment.dayOfYear();
 
       if (nowDayOfYear > eventDayOfYear) {
-        timeWrapper.innerHTML += eventDayOfYear - nowDayOfYear + 365 + "days ";
+        timeWrapper.innerHTML += eventDayOfYear - nowDayOfYear + 365 + " days";
       } else {
-        timeWrapper.innerHTML += eventDayOfYear - nowDayOfYear + "days ";
+        timeWrapper.innerHTML += eventDayOfYear - nowDayOfYear + " days";
       }
 				
       timeWrapper.className = `time light`;
