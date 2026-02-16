@@ -12,7 +12,6 @@
  * MIT Licensed.
  */
 // const Log = console;
-const LOG_PREFIX = 'MMM-Calendar-Countdown ';
 
 Module.register('MMM-Calendar-Countdown', {
   // Min version of MM2 required
@@ -30,7 +29,7 @@ Module.register('MMM-Calendar-Countdown', {
   // load function
   start: function () {
     Log.debug(
-      LOG_PREFIX + 'starting...'
+      'MMM-Calendar-Countdown starting...'
     );
     
     this.eventPool = new Map();    
