@@ -1,9 +1,9 @@
 /* global Module */
 
-/* MMM-Calender-Countdown.js
+/* MMM-Calendar-Countdown.js
  *
  * Magic Mirror
- * Module: MMM-Calender-Countdown
+ * Module: MMM-Calendar-Countdown
  *
  * Magic Mirror By Michael Teeuw http://michaelteeuw.nl
  * MIT Licensed.
@@ -12,9 +12,9 @@
  * MIT Licensed.
  */
 // const Log = console;
-const LOG_PREFIX = 'MMM-Calender-Countdown ';
+const LOG_PREFIX = 'MMM-Calendar-Countdown ';
 
-Module.register('MMM-Calender-Countdown', {
+Module.register('MMM-Calendar-Countdown', {
   // Min version of MM2 required
   requiresVersion: "2.1.0",
 
