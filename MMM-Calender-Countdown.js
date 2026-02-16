@@ -50,7 +50,8 @@ Module.register('MMM-Calender-Countdown', {
   // generic notification handler
   notificationReceived: function (notification, payload, sender) {
     if (notification === 'CALENDAR_EVENTS') {
-      this.eventPool.set(sender.identifier, JSON.parse(JSON.stringify(payload)))
+      this.eventPool.set(sender.identifier, JSON.parse(JSON.stringify(payload)));
+      this.updateDom();
     } 
   },
   
