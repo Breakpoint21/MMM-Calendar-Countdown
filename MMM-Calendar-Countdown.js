@@ -101,17 +101,17 @@ Module.register('MMM-Calendar-Countdown', {
   getDom: function () {
     const events = this.createEventList(true);
 		const wrapper = document.createElement("table");
-		wrapper.className = this.config.tableClass;
+		//wrapper.className = this.config.tableClass;
 
 		if (this.error) {
 			wrapper.innerHTML = this.error;
-			wrapper.className = `${this.config.tableClass} dimmed`;
+			//wrapper.className = `${this.config.tableClass} dimmed`;
 			return wrapper;
 		}
 
 		if (events.length === 0) {
 			wrapper.innerHTML = this.loaded ? this.translate("EMPTY") : this.translate("LOADING");
-			wrapper.className = `${this.config.tableClass} dimmed`;
+			//wrapper.className = `${this.config.tableClass} dimmed`;
 			return wrapper;
 		}
 
